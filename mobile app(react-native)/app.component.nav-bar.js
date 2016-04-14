@@ -1,6 +1,7 @@
 var NavBarComponent = React.createClass({
     handle_setting_click: function(event) {
         event.preventDefault();
+        
         this.props.navigation_handler("settings");
     },
     handle_logout_click: function(event) {
@@ -24,6 +25,7 @@ var NavBarComponent = React.createClass({
         }
         else {
             this.setState({openMenyKey: undefined});
+			event.preventDefault();
         }
 
     },

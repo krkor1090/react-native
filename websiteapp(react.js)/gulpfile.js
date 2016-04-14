@@ -4,7 +4,7 @@ var concat = require("gulp-concat");
 var babel = require("gulp-babel");
 const sourcemaps = require('gulp-sourcemaps');
 const uglify = require('gulp-uglify');
-
+var babel = require("gulp-babel");
 // task
 gulp.task('default', function () {
     gulp.src('./src/**/**/*.js') // path to your files
